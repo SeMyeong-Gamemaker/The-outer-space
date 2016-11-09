@@ -22,9 +22,9 @@
     <sprites name="object">
       <sprite>sprites\spr_next</sprite>
     </sprites>
-    <sprite>sprites\spr_button_exit</sprite>
     <sprites name="button">
       <sprite>sprites\spr_button_start</sprite>
+      <sprite>sprites\spr_button_exit</sprite>
     </sprites>
     <sprites name="stage">
       <sprite>sprites\spr_stage</sprite>
@@ -34,7 +34,9 @@
       <sprite>sprites\spr_stage4</sprite>
       <sprite>sprites\spr_clear</sprite>
     </sprites>
-    <sprite>sprites\spr_test</sprite>
+    <sprite>sprites\spr_message</sprite>
+    <sprite>sprites\spr_yes</sprite>
+    <sprite>sprites\spr_no</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_start</background>
@@ -49,6 +51,9 @@
     <objects name="button">
       <object>objects\obj_button_exit</object>
       <object>objects\obj_button_start</object>
+      <object>objects\obj_yes</object>
+      <object>objects\obj_no</object>
+      <object>objects\obj_message</object>
     </objects>
     <objects name="stage">
       <object>objects\obj_stage1</object>

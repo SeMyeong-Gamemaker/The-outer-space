@@ -58,7 +58,7 @@ show_message("이전 스테이지를 클리어하세요.")
             <string>draw_self();
 if(global.stage[3] == true)
 {
-    draw_sprite( spr_clear, -1, x+16, y+45);
+    draw_sprite( spr_clear, -1, x , y);
 }
 </string>
           </argument>
